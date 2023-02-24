@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #083b4c;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    
+    
+}
+
+#contenitore div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 7 - (20px / 7 * 6));
+    min-height: 68.56px;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    
+    
+}

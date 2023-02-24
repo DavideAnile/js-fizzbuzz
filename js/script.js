@@ -31,21 +31,27 @@ for (let i = 1; i <= 100; i++) {
         
         newEl.innerHTML = "FizzBuzz"
          console.log(newEl.innerHTML);
+         newEl.style.backgroundColor = " #f0466f "
          
 
     } else if ( i % 5 == 0) {
         newEl.innerHTML = "Buzz"
         console.log(newEl.innerHTML)
+        newEl.style.backgroundColor = "yellow"
 
     } else if ( i % 3 == 0) {
         newEl.innerHTML = "Fizz"
         console.log(newEl.innerHTML)
+        newEl.style.backgroundColor = " #0cd6a1 "
 
     } else {
 
         console.log(newEl.innerHTML) ;
+        newEl.style.backgroundColor = " #1389b2 "
     }
 }
+
+
      
 
         
