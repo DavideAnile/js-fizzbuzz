@@ -16,3 +16,35 @@ che di 5 stampi “FizzBuzz”. */
 
 
 */
+
+let numero;
+
+for (let i = 1; i <= 100; i++) {
+    
+    numero = i ;
+    console.log(numero) ;
+
+    if  (i % 3 == 0  &&  i % 5 == 0)  {
+        
+        numero = "fizzbuzz"
+        console.log(numero);
+         
+
+    } else if ( i % 5 == 0) {
+
+
+    } else if ( i % 3 == 0) {
+
+
+    } else {
+
+
+    }
+}
+     
+        
+    
+
+
+ 
+        
