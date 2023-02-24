@@ -27,14 +27,16 @@ for (let i = 1; i <= 100; i++) {
     if  (i % 3 == 0  &&  i % 5 == 0)  {
         
         numero = "fizzbuzz"
-        console.log(numero);
+         console.log(numero);
          
 
     } else if ( i % 5 == 0) {
-
+        numero = "buzz"
+        console.log(numero)
 
     } else if ( i % 3 == 0) {
-
+        numero = "fizz"
+        console.log(numero)
 
     } else {
 
