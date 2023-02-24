@@ -17,33 +17,37 @@ che di 5 stampi “FizzBuzz”. */
 
 */
 
-let numero;
+let contenitoreEl = document.getElementById("contenitore")
+
 
 for (let i = 1; i <= 100; i++) {
+    let newEl = document.createElement("div");
+    newEl.innerHTML = i;
+    contenitoreEl.appendChild(newEl);
+     
     
-    numero = i ;
-    console.log(numero) ;
 
     if  (i % 3 == 0  &&  i % 5 == 0)  {
         
-        numero = "fizzbuzz"
-         console.log(numero);
+        newEl.innerHTML = "FizzBuzz"
+         console.log(newEl.innerHTML);
          
 
     } else if ( i % 5 == 0) {
-        numero = "buzz"
-        console.log(numero)
+        newEl.innerHTML = "Buzz"
+        console.log(newEl.innerHTML)
 
     } else if ( i % 3 == 0) {
-        numero = "fizz"
-        console.log(numero)
+        newEl.innerHTML = "Fizz"
+        console.log(newEl.innerHTML)
 
     } else {
 
-
+        console.log(newEl.innerHTML) ;
     }
 }
      
+
         
     
 
